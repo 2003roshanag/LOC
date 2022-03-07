@@ -2,8 +2,8 @@
 #include<string.h>
 int main(){
     int n=0;
-    char str1[12]="Lift";
-    char str2[55]="off";
+    char str1[12]="off";
+    char str2[55]="Lift";
     char str3[20];
     strcat(str1,str2);
     printf("%s\n",str1);
