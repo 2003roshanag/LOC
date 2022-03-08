@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main()
+{
+    float radius, pie=3.142;
+    scanf("%f",&radius);
+    printf("radius of the circle is %f\n",1*radius);
+    printf("diameter of the circle is %f\n",2*radius);
+    printf("circumference of the circle is %f\n",2*pie*radius);
+    printf("area of the circle is %f\n",pie*radius*radius);
+    return 0;
+}
